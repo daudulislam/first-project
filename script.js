@@ -1,4 +1,6 @@
 
+function calculateAge(currentAge) {
+	return 2018 - currentAge;
+}
 
-var a = 10;
-console.log(a);
+console.log(calculateAge(1992));
